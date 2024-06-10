@@ -1,0 +1,27 @@
+
+
+body{
+    background-color: rgb(13, 13, 13);
+}
+header{
+    border: solid 2px red;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 3%;
+    transition: color 0.5s;
+}
+a:hover{
+    color: rgb(255, 188, 79);
+}
