@@ -25,3 +25,21 @@ a{
 a:hover{
     color: rgb(255, 188, 79);
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px blue;
+    height: 100vh;
+}
+.hlateral{
+    width: 5%;
+    height: 100vh;
+    border: 2px solid aqua;
+    background-color: rgb(18, 18, 18);
+    color:  rgb(255, 255, 255);
+}
+.hprincipal{
+    width: 95%;
+    border: 2px solid aquamarine;
+}
