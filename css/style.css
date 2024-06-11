@@ -230,4 +230,27 @@ button:hover{
         filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
     }
 }
-  
+.sbox{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-break: keep-all;
+    border-radius: 2%;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(32, 34, 46);
+    line-height: 3%;
+}
+.sh2{
+    color: rgb(255, 188, 79);
+}
+.sfin{
+    margin: 5%;
+    color: white;
+    font-size: 250%;
+    font-style: inherit;
+    text-align: center;
+}
