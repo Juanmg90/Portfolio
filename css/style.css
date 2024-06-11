@@ -164,7 +164,7 @@ button:hover{
     filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
 }
 .sprin{
-    height: 60vh;
+
     display: flex;
 
     align-items: center;
@@ -198,5 +198,36 @@ button:hover{
     text-align: center;
     word-break: keep-all;
     border: 2px solid aqua;
+}
+.scont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-break: keep-all;
+    border-radius: 2%;
+    color: white;
+    width: 20%;
+    height: 30vh;
+    margin: 1%;
+    padding: 1%;
+    transition: 0.5s;
+}
+.sicon{
+    width: 20%;
+    filter: brightness(0) saturate(100%) invert(98%) sepia(5%) saturate(152%) hue-rotate(248deg) brightness(119%) contrast(100%);
+    transition: filter 0.5s;
+}
+.sitem:hover{
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 188, 79);
+    & .sicon{
+        filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
+    }
 }
   
