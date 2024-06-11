@@ -98,3 +98,23 @@ button:hover{
     width: 47.5%;
     border: 2px solid aquamarine; 
 }
+.misup{
+    height: 70vh;
+    border: 2px solid aqua;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+}
+.supimg{
+    width: 50%;
+}
+.suptext{
+    width: 50%;
+    color: white;
+    word-break: keep-all;
+    font-family: "Poppins";
+    margin-right: 10%;
+}
+.interli{
+    margin: 10% 0%;
+}
