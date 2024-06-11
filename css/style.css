@@ -128,10 +128,38 @@ button:hover{
 }
 .intext{
     word-break: keep-all;
-    width: 50%;
+    width: 30%;
     margin: 10% 0% 0% 25%;
 }
 .indi{
+    width: 90%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.sindi{
+    width: 15%;
+    height: 20vh;
+    text-align: center;
+}
+.sicolor{
+    color: rgb(255, 188, 79);
+}
+.siborde{
+    height: 5vh;
+    background-color: rgb(32, 34, 46) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dline{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    height: 5vh;    
+    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
 }
