@@ -4,7 +4,7 @@ body{
     font-family: "Poppins";
 }
 header{
-    border: solid 2px red;
+
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -30,13 +30,13 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px blue;
+   
     height: 100vh;
 }
 .hlateral{
     width: 5%;
     height: 100vh;
-    border: 2px solid aqua;
+    
     background-color: rgb(18, 18, 18);
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@ a:hover{
 }
 .hprincipal{
     width: 47.5%;
-    border: 2px solid aquamarine;
+   
     color: white;
     word-break: keep-all; 
 }
@@ -94,11 +94,11 @@ button:hover{
 }
 .himg{
     width: 47.5%;
-    border: 2px solid aquamarine; 
+     
 }
 .misup{
     height: 70vh;
-    border: 2px solid aqua;
+   
     background-color: rgb(18, 18, 18);
     display: flex;
     align-items: center;
@@ -118,7 +118,7 @@ button:hover{
 }
 .miinf{
     height: 70vh;
-    border: 2px solid aqua;
+ 
     background-color: rgb(18, 18, 18);
     color: white;
     word-break: keep-all;
@@ -165,27 +165,27 @@ button:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 2px solid rgb(255, 64, 0);
+   
 }
 .sserv{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Poppins";
-    border: 2px solid rgb(0, 255, 0);
+    
 }
 .stit1{
     color: rgb(255, 188, 79);
     z-index: 1;
     position: relative;
-    border: 2px solid rgb(179, 0, 255);
+    
 }
 .stit2{
     color: rgb(26, 25, 28);
     font-size: 500%;
     position: absolute;
     z-index: -1;
-    border: 2px solid rgb(179, 255, 0);
+    
 }
 .sparr{
     margin: 2%;
@@ -193,7 +193,7 @@ button:hover{
     color: white;
     text-align: center;
     word-break: keep-all;
-    border: 2px solid aqua;
+   
 }
 .scont{
     display: flex;
@@ -237,7 +237,7 @@ button:hover{
     color: white;
     margin: 1%;
     padding: 1%;
-    background-color: rgb(32, 34, 46);
+    
     line-height: 3%;
 }
 .sh2{
@@ -254,27 +254,27 @@ button:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 2px solid rgb(255, 64, 0);
+    
 }
 .hhab{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Poppins";
-    border: 2px solid rgb(0, 255, 0);
+   
 }
 .htit1{
     color: rgb(255, 188, 79);
     z-index: 1;
     position: relative;
-    border: 2px solid rgb(179, 0, 255);
+    
 }
 .htit2{
     color: rgb(26, 25, 28);
     font-size: 500%;
     position: absolute;
     z-index: -1;
-    border: 2px solid rgb(179, 255, 0);
+    
 }
 .hparr{
     margin: 2%;
@@ -282,13 +282,13 @@ button:hover{
     color: white;
     text-align: center;
     word-break: keep-all;
-    border: 2px solid aqua;
+    
 }
 .hbox{
     width: 40%;
     display: flex;
     flex-direction: column;
-    border: 2px solid aqua;
+   
     color: white;
     margin-left: 15%;
     line-height: 3%;
@@ -314,7 +314,7 @@ button:hover{
     width: 40%;
     display: flex;
     flex-direction: column;
-    border: 2px solid aqua;
+    
     color: white;
     margin: 2%;
 }
@@ -328,7 +328,7 @@ button:hover{
     width: 80%;
     height: 100%;
     background-color: rgb(255, 188, 79);
-    animation: prog80 5s ease-in-out infinite;
+    animation: prog80 5s ease-in-out;
 }
 @keyframes prog80{
   0% {width: 0%}
@@ -371,20 +371,20 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(0, 255, 0);
+    
 }
 .ptit1{
     color: rgb(255, 188, 79);
     z-index: 1;
     position: relative;
-    border: 2px solid rgb(179, 0, 255);
+   
 }
 .ptit2{
     color: rgb(26, 25, 28);
     font-size: 500%;
     position: absolute;
     z-index: -1;
-    border: 2px solid rgb(179, 255, 0);
+   
 }
 .pparr{
     margin: 2%;
@@ -392,21 +392,21 @@ button:hover{
     color: white;
     text-align: center;
     word-break: keep-all;
-    border: 2px solid aqua;
+   
 }
 .pprin{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid rgb(255, 64, 0);
+ 
 }
 .proimg{
     margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(255, 64, 0);
+    
 }
 .pimgl{
     width: 3%;
@@ -442,25 +442,53 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(0, 255, 0);
+   
 }
 .ttit1{
     color: rgb(255, 188, 79);
     z-index: 1;
     position: relative;
-    border: 2px solid rgb(179, 0, 255);
+ 
 }
 .ttit2{
     color: rgb(26, 25, 28);
     font-size: 500%;
     position: absolute;
     z-index: -1;
-    border: 2px solid rgb(179, 255, 0);
+   
 }
-
 .radio{
     vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.tclient{
+    margin: 10%;
+    height: 50vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+
+    background-color: rgb(15, 15, 18);
+}
+.timg{
+    margin: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.timgh{
+    filter: brightness(0) saturate(100%) invert(98%) sepia(5%) saturate(152%) hue-rotate(248deg) brightness(119%) contrast(100%); 
+}
+.timgh:hover{
+    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
+}
+.ttext{
+    width: 50%;
+    text-align: center;
+    color: white;
+    word-break: keep-all;
 }
