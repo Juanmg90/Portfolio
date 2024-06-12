@@ -397,12 +397,32 @@ button:hover{
 .pprin{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     border: 2px solid rgb(255, 64, 0);
 }
 .proimg{
+    margin-top: 5%;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
-    width: 90%;
+    border: 2px solid rgb(255, 64, 0);
+}
+.pimgl{
+    width: 3%;
+    filter: brightness(0) saturate(100%) invert(98%) sepia(5%) saturate(152%) hue-rotate(248deg) brightness(119%) contrast(100%);
+    margin: 2%;
+    transition: filter 0.5s;
+    border-radius: 5%;
+}
+.pimgl:hover{
+    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
+}
+.pimglat{
+    width: 10%;
+    border-radius: 5%;
+}
+.pimgcen{
+    width: 40%;
+    border-radius: 5%;
 }
