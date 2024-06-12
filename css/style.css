@@ -164,9 +164,7 @@ button:hover{
     filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
 }
 .sprin{
-
     display: flex;
-
     align-items: center;
     flex-direction: column;
     border: 2px solid rgb(255, 64, 0);
@@ -237,7 +235,7 @@ button:hover{
     align-items: center;
     flex-direction: column;
     word-break: keep-all;
-    border-radius: 2%;
+    
     color: white;
     margin: 1%;
     padding: 1%;
@@ -253,4 +251,75 @@ button:hover{
     font-size: 250%;
     font-style: inherit;
     text-align: center;
+}
+.hprin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(255, 64, 0);
+}
+.hhab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    border: 2px solid rgb(0, 255, 0);
+}
+.htit1{
+    color: rgb(255, 188, 79);
+    z-index: 1;
+    position: relative;
+    border: 2px solid rgb(179, 0, 255);
+}
+.htit2{
+    color: rgb(26, 25, 28);
+    font-size: 500%;
+    position: absolute;
+    z-index: -1;
+    border: 2px solid rgb(179, 255, 0);
+}
+.hparr{
+    margin: 2%;
+    width: 40%;
+    color: white;
+    text-align: center;
+    word-break: keep-all;
+    border: 2px solid aqua;
+}
+.hbox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid aqua;
+    color: white;
+    margin-left: 15%;
+    line-height: 3%;
+}
+.hpbox{
+    margin: 1%;
+    width: 40%;
+    padding: 1%;
+    font-size: x-large;
+    border-radius: 2%;  
+
+    text-align: center;
+    transition: 0.5s;
+}
+.hpbox:hover{
+    color: rgb(255, 188, 79);
+    background-color: rgb(14, 14, 18);
+}
+
+.hbar{
+    width: 50%;
+    margin: 2%;
+    padding: 2%;
+}
+.w3-green{
+    width: 80%;
+    height: 1vh;
+    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
+}
+.habi{
+    display: flex;
 }
