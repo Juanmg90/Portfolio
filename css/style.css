@@ -426,3 +426,14 @@ button:hover{
     width: 40%;
     border-radius: 5%;
 }
+.protext{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.color{
+    color: rgb(255, 188, 79);
+}
