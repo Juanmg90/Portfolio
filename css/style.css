@@ -96,6 +96,9 @@ button:hover{
     width: 47.5%;
      
 }
+.heroimg{
+    width: 100%;
+}
 .misup{
     height: 70vh;
    
@@ -103,8 +106,12 @@ button:hover{
     display: flex;
     align-items: center;
 }
-.supimg{
+.sconimg{
     width: 50%;
+}
+.supimg{
+    margin-left: 30%;
+    width: 25%;
 }
 .suptext{
     width: 50%;
@@ -116,7 +123,12 @@ button:hover{
 .interli{
     margin: 10% 0%;
 }
+.h1color{
+    color: rgb(255, 188, 79);
+}
 .miinf{
+
+    padding: 2%;
     height: 70vh;
  
     background-color: rgb(18, 18, 18);
@@ -125,6 +137,8 @@ button:hover{
     font-family: "Poppins";
 }
 .intext{
+    margin-top: 2%;
+  
     word-break: keep-all;
     width: 30%;
     margin: 10% 0% 0% 25%;
@@ -162,6 +176,7 @@ button:hover{
     filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
 }
 .sprin{
+    margin-top:2% ;
     display: flex;
     align-items: center;
     flex-direction: column;
