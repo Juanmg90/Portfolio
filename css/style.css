@@ -437,3 +437,30 @@ button:hover{
 .color{
     color: rgb(255, 188, 79);
 }
+.thab{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 255, 0);
+}
+.ttit1{
+    color: rgb(255, 188, 79);
+    z-index: 1;
+    position: relative;
+    border: 2px solid rgb(179, 0, 255);
+}
+.ttit2{
+    color: rgb(26, 25, 28);
+    font-size: 500%;
+    position: absolute;
+    z-index: -1;
+    border: 2px solid rgb(179, 255, 0);
+}
+
+.radio{
+    vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
