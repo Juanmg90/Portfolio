@@ -1,6 +1,4 @@
 
-
-
 body{
     background-color: rgb(13, 13, 13);
     font-family: "Poppins";
@@ -322,11 +320,44 @@ button:hover{
 }
 .hbar{
     width: 80%;
-    padding: 1%;
+    height: 1vh;    
+    margin: 1%;
+    background-color: rgb(194, 196, 196);
+}
+.progre80{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 188, 79);
+    animation: prog80 5s ease-in-out infinite;
+}
+@keyframes prog80{
+  0% {width: 0%}
+  100% {width: 80%}
+}
+.progre85{
+    width: 85%;
+    height: 100%;
+    background-color: rgb(255, 188, 79);
+    animation: prog85 5s ease-in-out infinite;
+}
+@keyframes prog85{
+  0% {width: 0%}
+  100% {width: 85%}
+}
+.progre90{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 188, 79); 
+    animation: prog90 5s ease-in-out infinite;
+
+}
+@keyframes prog90{
+  0% {width: 0%}
+  100% {width: 90%}
 }
 .hbtext{
     width: 80%;
-    height: 10vh;
+    height: 6vh;
     padding: 1%;
     display: flex;
     justify-content: space-between;
@@ -335,18 +366,4 @@ button:hover{
 .hbsize{
     font-size: x-large;
 }
-.w3-black{
-    width: 90%;
-    height: 1vh;
-    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
-}
-.w3-green{
-    width: 80%;
-    height: 1vh;
-    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
-}
-.w3-blue{
-    width: 85%;
-    height: 1vh;
-    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
-}
+
