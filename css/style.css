@@ -449,6 +449,9 @@ button:hover{
     flex-direction: column;
     color: white;
 }
+.colorw{
+    color: white;
+}
 .color{
     color: rgb(255, 188, 79);
 }
