@@ -295,6 +295,9 @@ button:hover{
     margin-left: 15%;
     line-height: 3%;
 }
+.habi{
+    display: flex;
+}
 .hpbox{
     margin: 1%;
     width: 40%;
@@ -309,17 +312,41 @@ button:hover{
     color: rgb(255, 188, 79);
     background-color: rgb(14, 14, 18);
 }
-
-.hbar{
-    width: 50%;
+.hprog{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid aqua;
+    color: white;
     margin: 2%;
-    padding: 2%;
+}
+.hbar{
+    width: 80%;
+    padding: 1%;
+}
+.hbtext{
+    width: 80%;
+    height: 10vh;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.hbsize{
+    font-size: x-large;
+}
+.w3-black{
+    width: 90%;
+    height: 1vh;
+    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
 }
 .w3-green{
     width: 80%;
     height: 1vh;
     filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
 }
-.habi{
-    display: flex;
+.w3-blue{
+    width: 85%;
+    height: 1vh;
+    filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(4021%) hue-rotate(317deg) brightness(100%) contrast(103%);
 }
